@@ -1,0 +1,249 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    margin: 30px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #CEE6B4;
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 30px;;
+}
+
+.special {
+    margin:0 65px;
+    font-family:'Pacifico', cursive;
+    font-size: 40px;
+    color: #3d9644;
+}
+
+.special:hover {
+    color: #9B3675;
+}
+
+.nav-bar {
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar {
+    color: #9B3675;
+}
+
+.bar:hover {
+    color: #3d9644;
+}
+
+li {
+    margin: 0 15px;
+}
+
+.intro {
+    font-size: 25px;
+    text-align: center;
+}
+
+.fancy {
+    font-family:'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+h2 {
+    margin: 50px 200px 0;
+    font-size: 30px;
+    text-decoration: dashed underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+    color: #34282C;
+}
+.recipe-image {
+    width: 200px;
+    height: 200px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.upcoming {
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.dessert {
+    margin-left: 20px;
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.previous-weeks {
+    margin-left: 100px;
+    text-align: center;
+}
+
+.space {
+    margin-left: 150px;
+    font-style: italic;
+}
+
+.date {
+    margin-left: 250px;
+    background-color:#b485a2;
+    font-size: 20px;
+    width: 100px;
+    padding: 10px 10px;
+    color:#CEE6B4;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px silver;
+    box-shadow: inset -2px -2px 3px rgba(0, 0, 0, 0.6) ;
+}
+
+.date:hover {
+    background-color: #9B3675;
+}
+
+.top-five {
+    margin-right: 200px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #CEE6B4;
+}
+
+.about {
+    margin: 30px 30px;
+    background-color:#E5E4E2;
+    text-align: center;
+}
+
+.about-image {
+    width: 800px;
+    height: 500px;
+}
+
+.credit {
+    font-size: 12px;
+}
+
+.about-info {
+    padding: 0 100px;
+}
+
+.contact-main {
+    margin: 50px 300px;
+}
+
+.contact {
+    margin: 100px 0;
+}
+
+form {
+    width: 500px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+}
+
+.input {
+    height: 30px;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+#comment {
+    height: 100px;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    box-shadow: inset -2px -2px 3px rgba(155, 54, 117, 0.4),
+     inset 2px 2px 3px rgba(61, 150, 68, 0.4);
+}
+
+#signup {
+    margin:30px 100px;
+    background-color:#b485a2;
+    font-size: 20px;
+    width: 100px;
+    padding: 10px 10px;
+    color:#CEE6B4;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px silver;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+#signup:hover {
+    background-color: #9B3675;
+}
+
+#signup:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+}
+
+#submit {
+    margin:30px 170px;
+    background-color:#b485a2;
+    font-size: 20px;
+    width: 100px;
+    padding: 10px 10px;
+    color:#CEE6B4;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px silver;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+#submit:hover {
+    background-color: #9B3675;
+}
+
+#submit:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+}
